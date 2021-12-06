@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React from "react";
 import {useSelector} from "react-redux"
 import { Container, Typography } from "@mui/material";
 import { RightArrow } from "../statics/svgs";
@@ -21,8 +21,7 @@ function Detailed() {
   const detailedData = useSelector(
     (DefaultRootState: RootState) => DefaultRootState.detailedData
   );
-console.log(detailedData, 'detailedData');
-
+ 
   return (
     <div className="detailed">
       <div

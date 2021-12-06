@@ -4,8 +4,7 @@ import {
  
 } from './models/actions';
 
-import { Data } from './models/Data';
-
+ 
 interface DataState {
   id: number;
   imageUrl: string;
